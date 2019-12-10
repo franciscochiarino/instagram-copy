@@ -1,0 +1,227 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    display: inline-block;
+    padding-bottom: 0.8rem;
+    font-weight: 400;
+}
+
+.profile a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.profile a:link {
+    color: #262626;
+}
+
+.profile a:visited {
+    color: #262626;
+}
+
+.name,
+.info p {
+    font-size: 0.9rem;
+}
+
+.info p.description {
+    color: #999
+}
+
+footer a {
+    text-decoration: none;
+    color: #1f3569;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* Layout */
+
+nav,
+.profile,
+.info,
+.gallery-nav {
+border-bottom: 1px solid rgba(211, 211, 211, 0.6);
+}
+
+main {
+    background-color: #fafafa;
+}
+
+nav,
+section {
+    display: flex;
+}
+
+/* Header */
+
+nav {
+    height: 4.7rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    padding-left: 1.3rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-right: 1.2rem;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0.6rem; 
+}
+
+input {
+    display: none;
+}
+
+/* Profile */
+
+.profile {
+    display: flex;
+}
+
+.profile-pic {
+    padding: 1.6rem 0.8rem 0.8rem 0.8rem;
+    width: 30%;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+}
+
+.profile-pic p {
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.profile-name {
+    padding: 1.3rem 0.5rem 0.8rem 0.5rem;
+    width: 100%;
+}
+
+/* Needed for the settings wheel not to be higher than h1 */
+
+.profile-name img {
+    position: relative;
+    top: 0.6rem;
+}
+
+/* ------ */
+
+button {
+    width: 95%;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    padding: 0.3rem 0;
+    border-radius: 4px;
+}
+
+/* Info */
+
+.info {
+    justify-content: space-around;
+    text-align: center;
+    padding: 1em;
+}
+
+.info div p.number {
+    font-weight: bold;
+}
+
+/* Gallery Nav */
+
+.gallery-nav {
+    justify-content: space-around;
+}
+
+
+/* Gallery */
+
+.gallery {
+    flex-flow: row wrap;
+    padding-bottom: 4rem;
+}
+
+.gallery img {
+    max-width: calc(100%/3);
+}
+
+/* Footer */
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #999;
+    padding: 0.4rem 0;
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+
+    input {
+        display: inline-block;
+        width: 200px;
+        height: 27px;
+        background-color: #fafafa;
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+    }
+}
+
+@media (min-width: 735px) {
+    
+    .flex-container {
+        display: flex;
+    }
+
+    .profile-name {
+        display: flex;
+    }
+
+    .profile-name button {
+        height: 30px;
+        width: 100px;
+        margin: 0 1rem;
+    }
+
+    .profile-name a {
+        order: 3;
+    }
+
+    .profile-name img {
+        position: relative;
+        top: -5px;
+    }
+}
