@@ -240,6 +240,14 @@ footer p {
     .name-box a {
         order: 3;
     }
+    
+    /* Profile Pic Desktop */
+
+    .profile-pic-desktop img {
+        width: 100%;
+        border-radius: 50%;
+        padding: 0 3rem;
+    }
 
     /* Info */
 
