@@ -216,9 +216,14 @@ footer p {
         display: flex;
     }
 
+    .profile {
+        border-bottom: none;
+    }
+
     .profile-name {
         display: flex;
         flex-flow: column;
+        border-bottom: none;
     }
 
     .profile-name button {
@@ -246,6 +251,18 @@ footer p {
     .info-desktop,
     .profile-pic-desktop {
         display: flex;
+    }
+
+    .info-desktop p {
+        display: inline;
+    }
+
+    .info-desktop p.description {
+        margin-right: 2rem;
+    }
+
+    .info-desktop p.number {
+        font-weight: 600;
     }
 
 }
