@@ -33,11 +33,11 @@ h1 {
 }
 
 .name,
-.info p {
+.info-mobile p {
     font-size: 0.9rem;
 }
 
-.info p.description {
+.info-mobile p.description {
     color: #999
 }
 
@@ -52,7 +52,7 @@ footer a {
 
 nav,
 .profile,
-.info,
+.info-mobile,
 .gallery-nav {
 border-bottom: 1px solid rgba(211, 211, 211, 0.6);
 }
@@ -134,15 +134,15 @@ button {
     border-radius: 4px;
 }
 
-/* Info */
+/* Info-mobile */
 
-.info {
+.info-mobile {
     justify-content: space-around;
     text-align: center;
     padding: 1em;
 }
 
-.info div p.number {
+.info-mobile div p.number {
     font-weight: bold;
 }
 
