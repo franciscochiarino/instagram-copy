@@ -234,11 +234,13 @@ footer p {
 
     /* Info */
 
-    .info {
+    .info,
+    .profile-pic {
         display: none;
     }
 
-    .info-desktop {
+    .info-desktop,
+    .profile-pic-desktop {
         display: flex;
     }
 
