@@ -218,7 +218,7 @@ footer p {
 
     .profile-name {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column;
     }
 
     .profile-name button {
