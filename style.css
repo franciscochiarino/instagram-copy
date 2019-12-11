@@ -212,6 +212,10 @@ footer p {
 
     /* Profile */
 
+    .name-box {
+        display: flex;
+    }
+
     .profile-name {
         display: flex;
         flex-flow: row wrap;
@@ -223,13 +227,13 @@ footer p {
         margin: 0 1rem;
     }
 
-    .profile-name a {
-        order: 3;
-    }
-
     .profile-name img {
         position: relative;
         top: -5px;
+    }
+
+    .name-box a {
+        order: 3;
     }
 
     /* Info */
