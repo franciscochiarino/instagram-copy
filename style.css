@@ -282,4 +282,17 @@ footer p {
         font-weight: 600;
     }
 
+    /* Gallery */
+
+    .gallery {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .gallery-nav {
+        max-width: 95%;
+        margin: 0 auto;
+        border-bottom: none;
+        border-top: 1px solid lightgray;
+    }
 }
