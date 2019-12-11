@@ -240,6 +240,10 @@ footer p {
     .name-box a {
         order: 3;
     }
+
+    .name-desktop {
+        font-weight: 600;
+    }
     
     /* Profile Pic Desktop */
 
@@ -259,6 +263,10 @@ footer p {
     .info-desktop,
     .profile-pic-desktop {
         display: flex;
+    }
+
+    .info-desktop {
+        margin-bottom: 1rem;
     }
 
     .info-desktop p {
