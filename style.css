@@ -33,11 +33,11 @@ h1 {
 }
 
 .name,
-.info-mobile p {
+.info p {
     font-size: 0.9rem;
 }
 
-.info-mobile p.description {
+.info p.description {
     color: #999
 }
 
@@ -52,9 +52,13 @@ footer a {
 
 nav,
 .profile,
-.info-mobile,
+.info,
 .gallery-nav {
 border-bottom: 1px solid rgba(211, 211, 211, 0.6);
+}
+
+.info-desktop {
+    display: none;
 }
 
 main {
@@ -136,13 +140,13 @@ button {
 
 /* Info-mobile */
 
-.info-mobile {
+.info {
     justify-content: space-around;
     text-align: center;
     padding: 1em;
 }
 
-.info-mobile div p.number {
+.info div p.number {
     font-weight: bold;
 }
 
@@ -209,6 +213,7 @@ footer p {
 
     .profile-name {
         display: flex;
+        flex-flow: row wrap;
     }
 
     .profile-name button {
@@ -228,11 +233,11 @@ footer p {
 
     /* Info */
 
-    .info-mobile {
+    .info {
         display: none;
     }
 
-    .info {
+    .info-desktop {
         display: flex;
     }
 
